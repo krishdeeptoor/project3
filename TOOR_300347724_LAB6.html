@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="STYLE.css">
+</head>
+
+<body>
+    <header>
+        <h1>Header</h1>
+    </header>
+    <section>
+        <form id="MyForm" action="https://formspree.io/" method="post">
+            <h3>Field with * are required</h3>
+            <div class="container1">
+                <table class="table1">
+                    <tr>
+                        <td>Full Name*:</td>
+                        <td><input type="text" id="fn" name="fn" placeholder="First and last name" required></td>
+                    </tr>
+                    <tr>
+                        <td>Email Address*:</td>
+                        <td><input type="text" id="ea" name="ea" placeholder="someone@somewhere.com" required></td>
+                    </tr>
+                    <tr>
+                        <td>Current Study:</td>
+                        <td><input type="text" id="cs" name="cs" value="Dougles College"></td>
+                    </tr>
+                    <tr>
+                        <td>Age:</td>
+                        <td><input type="text" id="age" name="age" value="20"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="container2">
+                <table class="table2">
+                    <tr>
+                        <td>1. Whats is the result of the following equations?</td>
+                    </tr>
+                    <tr>
+                        <td>2<sup>2</sup>x5=<input type="text" id="equ" name="equ"></td>
+                    </tr>
+                    <tr>
+                        <td>2. What does the acronym W3C stand for?<select name="w3c" id="w3c">
+                                <option value="1">World War Coalition</option>
+                                <option value="2">Wordl Wide WarcCraft</option>
+                                <option value="3">Wordld Wide Web Consortium</option>
+                                <option value="3">I'm afraid to answer it</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td>3. CSS is an abbreviation of <input type="text" id="abb" name="abb">style sheet</td>
+                    </tr>
+                    <tr>
+                        <td>4. Selet all the(scripting) languages we learn in CSIS 1280?<br>
+                            <input type="checkbox" name="html" id="html">HTML<input type="checkbox" name="css"
+                                id="css">CSS<input type="checkbox" name="js" id="js">JavaScript<input type="checkbox"
+                                name="php" id="php">PHP<input type="checkbox" name="c#" id="c#">C#<input type="checkbox"
+                                name="java" id="java">Java
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>5. Consider the picture of a DOM structure below. Which of the following selevctor
+                            <b>CANNOT</b>
+                            be used to select all the &lt;p&gt; elements? <br>
+                            <div class="rdiv">
+                                <div class="radios">
+                                    <input type="radio" id="p" name="cannot">p<br>
+                                    <input type="radio" id="h1p" name="cannot">h1~p<br>
+                                    <input type="radio" id="ap" name="cannot">article>p<br>
+                                    <input type="radio" id="a>p" name="cannot">article>p<br>
+                                    <input type="radio" id="h1+p" name="cannot">h1+p<br>
+                                </div>
+                                <div class="image">
+                                    <img src="images/q5.PNG" alt="image">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>6. Consider the picture of a DOM structure below. Which of the following selevctor
+                            <b>CAN</b>
+                            be used to select all the identified &lt;p&gt; elements? <br>
+                            <div class="rdiv">
+                                <div class="radios">
+                                    <input type="radio" id="li" name="can">li<br>
+                                    <input type="radio" id="lin" name="can">li:nth-child(2n+1)<br>
+                                    <input type="radio" id="ulli" name="can">ul>li:(2n+1)<br>
+                                    <input type="radio" id="ul>li" name="can">ul>li<br>
+                                    <input type="radio" id="uli2n" name="can">ul>li(2n+1)<br>
+                                </div>
+                                <div class="image">
+                                    <img src="images/q6.PNG" alt="image">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="con">
+                                <div class="content">
+                                    7. Douglas College and the Coquitlam campus was named after the former Governor and
+                                    Liutenant-Governor of British Columbia. What are their names?
+                                </div>
+                                <div class="ta">
+                                    <textarea name="ta" id="ta" cols="40" rows="5"></textarea>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <input type="submit" id="submit" name="Submit" value="Submit My Quiz">
+            <input type="button" id="cancel" name="cancel" value="Cancel">
+        </form>
+    </section>
+    <footer>
+        <h1>Footer</h1>
+    </footer>
+</body>
+
+</html>

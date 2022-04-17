@@ -1,0 +1,85 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: white;
+}
+header{
+    background-color: gray;
+    height: 50px;
+    text-align: center;
+    color: white;
+}
+h3{
+    color: red;
+}
+.table1 input[type='text']{    
+    width: 500px;
+}
+.table1{
+    width: 100%;    
+    height: 180px;
+    padding: 20px;     
+}
+.table2{
+    width: 100%;  
+    height: 600px; 
+    padding: 20px;
+}
+section{
+    width: 1000px;
+    margin: auto;
+}
+.container1{
+    border: 1px solid black;   
+    margin: 20px 0;
+}
+.container1::before{
+    content: "Your Personal Infromation";
+    background-color: lightgray;     
+    position: absolute;
+    top: 75px;
+    left: 185px;
+    padding: 10px;
+}
+.container2{
+    border: 1px solid black;
+    margin: 50px 0 15px 0;
+}
+.container2::before{
+    content: "Your Quiz";
+    background-color: lightgray;     
+    position: absolute;
+    top: 305px;
+    left: 185px;
+    padding: 10px;
+}
+.center{
+    align-items: center;
+}
+.table1 td:last-child{
+    text-align: right;
+}
+.rdiv{
+    display: flex;
+    flex-direction: row;    
+}
+.image{
+    margin-left: 300px;
+}
+.con{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+input[type='submit'],input[type='button']{
+    padding: 3px;
+}
+footer{
+    background-color: gray;
+    height: 50px;
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
